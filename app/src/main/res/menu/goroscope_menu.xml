@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/change_sign"
+        android:icon="@drawable/no_sign"
+        android:title="Сменить знак зодиака"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/head_img"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView1"
+        app:srcCompat="@drawable/point" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="В ЭТОТ ДЕНЬ ПРОИСХОДИТ КУЧА ВЕЩЕЙ ПРЯМ ВАЩПЕЕЕВ ЭТОТ ДЕНЬ ПРОИСХОДИТ КУЧА ВЕЩЕЙ ПРЯМ ВАЩПЕЕЕВ ЭТОТ ДЕНЬ ПРОИСХОДИТ КУЧА ВЕЩЕЙ ПРЯМ ВАЩПЕЕЕВ ЭТОТ ДЕНЬ ПРОИСХОДИТ КУЧА ВЕЩЕЙ ПРЯМ ВАЩПЕЕЕ"
+        android:textColor="@color/primary_text"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/head_img"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

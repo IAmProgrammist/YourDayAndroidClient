@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Ежедневник</string>
+    <string name="map_api">AIzaSyBjiQJwK_O90KYI0i4BtS6crD1-szl2gsw</string>
+    <string name="moon_pic_name"><![CDATA[<a href=\'https://pngtree.com/so/вектор\'>вектор png from pngtree.com</a>]]></string>
+    <string name="icons_for_weather"><![CDATA[<a target=_blank href=https://icons8.ru/icons/set/wind>Ветер</a>, <a target=_blank href=https://icons8.ru/icons/set/clouds>Облака</a> и другие иконки от <a target=_blank href=https://icons8.ru>Icons8</a> <a target="_blank" href="https://icons8.com/icons/set/thermometer--v2">Thermometer icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>]]> </string>
+    <string name="channel_name">Заметки</string>
+    <string name="channel_description">Создаёт заметки при включении устройства</string>
+</resources>
