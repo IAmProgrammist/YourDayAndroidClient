@@ -36,7 +36,7 @@ import rchat.info.yourday_new.containers.weather.Weather;
 public class Connection {
     public static List<Object> props = Collections.synchronizedList(new ArrayList<>());
     private static Connection connection;
-    private static String uri = "ws://192.168.99.1:4123";
+    private static String uri = "ws://37.230.114.103:4123";
     //37.230.114.103
     private static WebSocketClient cc;
     public static boolean launchedFirst = true;
